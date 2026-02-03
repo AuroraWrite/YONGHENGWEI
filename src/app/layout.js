@@ -11,9 +11,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="zh-CN">
       <body>
-        {/* <Header /> */}
+        <Header />
         <main>{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   )
